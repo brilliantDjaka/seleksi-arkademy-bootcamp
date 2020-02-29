@@ -38,4 +38,4 @@
 ![1](https://raw.githubusercontent.com/brilliantDjaka/seleksi-arkademy-bootcamp/master/6/6.C/screenshot/1.png)
     
 # Kegunaan JSON Pada Rest API
-    - banyak bahasa pemrograman yang mendukung json
+    banyak bahasa pemrograman yang mendukung json sehingga memudahkan ketika API hendak dipakai oleh multiplatform

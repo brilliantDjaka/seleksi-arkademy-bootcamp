@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <img id="arka-logo" src="./img/arka_logo.png" class="navbar-brand" alt="" >
+        
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <form class="form-inline my-2 my-lg-0">
+            <input id="search-bar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="search-button" class="btn btn-lg " type="button" data-toggle="modal" data-target="#addModal">Add</button>
+          </form>
+        </div>
+      </nav>
+
+      <br>
+      <br>
+      <br>
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg">
+            <table id="table-data" class="table table-borderless">
+                <thead id="table-head">
+                  <tr>
+                    <th height scope="col">No</th>
+                    <th scope="col">Cashier</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Pevita Pearce</td>
+                    <td>Latte</td>
+                    <td>Drink</td>
+                    <td>Rp. 10.000</td>
+                    <td><button class="edit-button" data-toggle="modal" data-target="#editModal"><img  src="./svg/edit.svg" height="20" width="20" alt=""></button><button data-toggle="modal" data-target="#notifModal"  class="edit-button"><img src="./svg/delete.svg" height="20" width="20" alt=""></button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Raisa Andriana</td>
+                    <td>Cake</td>
+                    <td>Food</td>
+                    <td>Rp. 15.000</td>
+                    <td><button class="edit-button" data-toggle="modal" data-target="#editModal"><img  src="./svg/edit.svg" height="20" width="20" alt=""></button><button data-toggle="modal" data-target="#notifModal"  class="edit-button"><img src="./svg/delete.svg" height="20" width="20" alt=""></button></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">3</th>
+                    <td >Raisa Andriana</td>
+                    <td>Fried Rice</td>
+                    <td>Food</td>
+                    <td>Rp. 30.000</td>
+                    <td><button class="edit-button" data-toggle="modal" data-target="#editModal"><img  src="./svg/edit.svg" height="20" width="20" alt=""></button><button data-toggle="modal" data-target="#notifModal"  class="edit-button"><img src="./svg/delete.svg" height="20" width="20" alt=""></button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Pevita Pearce</td>
+                    <td>Gudeg</td>
+                    <td>Food</td>
+                    <td>Rp. 35.000</td>
+                    <td><button class="edit-button" data-toggle="modal" data-target="#editModal"><img  src="./svg/edit.svg" height="20" width="20" alt=""></button><button data-toggle="modal" data-target="#notifModal"  class="edit-button"><img src="./svg/delete.svg" height="20" width="20" alt=""></button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Joko Purwadhi</td>
+                    <td>Ice Tea</td>
+                    <td>Drink</td>
+                    <td>Rp. 55.000</td>
+                    <td><button class="edit-button" data-toggle="modal" data-target="#editModal"><img  src="./svg/edit.svg" height="20" width="20" alt=""></button><button data-toggle="modal" data-target="#notifModal"  class="edit-button"><img src="./svg/delete.svg" height="20" width="20" alt=""></button></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          
+        </div>
+      </div>
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="waef" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Add</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            
+                <form>
+                    <div class="form-group">
+                        <select aria-placeholder="Drink" class="form-control" id="exampleFormControlSelect1">
+                          <option>Raisa Andriana</option>
+                          <option>Brilliant Djaka</option> 
+                        </select>
+                      </div>
+                    <div class="form-group">
+                      <select aria-placeholder="Drink" class="form-control" id="exampleFormControlSelect1">
+                        <option>Drink</option>
+                        <option>Food</option> 
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ice Tea">
+                      </div>
+                      <div class="form-group">
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Rp. 100.000">
+                      </div>
+                  </form>
+
+
+            </div>
+            <div class="modal-footer">
+            <button id='add-modal-button' type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#notifModal">Add</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Add -->
+    <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Add</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            
+                <form>
+                    <div class="form-group">
+                        <select aria-placeholder="Drink" class="form-control" id="exampleFormControlSelect1">
+                          <option>Raisa Andriana</option>
+                          <option>Brilliant Djaka</option> 
+                        </select>
+                      </div>
+                    <div class="form-group">
+                      <select aria-placeholder="Drink" class="form-control" id="exampleFormControlSelect1">
+                        <option>Drink</option>
+                        <option>Food</option> 
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ice Tea">
+                      </div>
+                      <div class="form-group">
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Rp. 100.000">
+                      </div>
+                  </form>
+
+
+            </div>
+            <div class="modal-footer">
+            <button id='add-modal-button' type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#notifModal">Add</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Notif -->
+    <div class="modal fade" id="notifModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex justify-content-center">
+                    <h5>Dita Raisa Andriani ID <h5>#1</h5></h5>
+                </div>
+            <div class="d-flex justify-content-center">
+                
+                
+                <img src="./svg/check.svg" height="200" width="200" alt="">
+            </div>
+            <div class="modal-body">
+                <div class="d-flex justify-content-center">
+                    <h5>Berhasil Dihapus</h5>
+                </div>
+            </div>
+           
+        </div>
+        </div>
+    </div>
+
+   
+   
+  <script>
+      $('#addModal').on('show.bs.modal', function (event) {
+      
+  
+  
+
+})
+  </script>
+  </body>
+</html>

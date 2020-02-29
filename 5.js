@@ -1,14 +1,15 @@
 let triangle = (jumlahBaris) => {
-    
+    let segitigaString = '';
     for (let i = 0; i <= jumlahBaris; i++) {
         for (let j = jumlahBaris - i; j > 0; j--) {
-            process.stdout.write(" "); 
+            segitigaString += ' '; 
         }
         for (let j = 0; j < i; j++) {
-            process.stdout.write("*"); 
+           segitigaString += '*';
         }
-        process.stdout.write("\n");
+        segitigaString += '\n';
     }
+    return segitigaString;
 }
 
-triangle(5)
+console.log(triangle(5));

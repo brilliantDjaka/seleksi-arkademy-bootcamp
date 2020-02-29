@@ -50,4 +50,5 @@ const soal1 = (name,age) =>{
     }
 };
 
-console.log(soal1('brian',11))
+console.log(soal1('Brilliant Djaka Irfanuddin Rofiq',18))
+//TODO fix alamat

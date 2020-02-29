@@ -37,4 +37,5 @@
 # Screenshot soal nomor 6.C
 ![1](https://raw.githubusercontent.com/brilliantDjaka/seleksi-arkademy-bootcamp/master/6/6.C/screenshot/1.png)
     
-     
+# Kegunaan JSON Pada Rest API
+    - banyak bahasa pemrograman yang mendukung json

@@ -1,0 +1,12 @@
+6/6.C/dynamic-web/node_modules
+6/6.C/dynamic-web/public/hot
+6/6.C/dynamic-web/public/storage
+6/6.C/dynamic-web/storage/*.key
+6/6.C/dynamic-web/vendor
+6/6.C/dynamic-web/.env
+6/6.C/dynamic-web/.env.backup
+6/6.C/dynamic-web/.phpunit.result.cache
+6/6.C/dynamic-web/Homestead.json
+6/6.C/dynamic-web/Homestead.yaml
+6/6.C/dynamic-web/npm-debug.log
+6/6.C/dynamic-web/yarn-error.log
